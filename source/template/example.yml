@@ -25,7 +25,7 @@ terms:
     definition_uk: "Повне визначення терміну українською мовою. Має бути зрозумілим і точним."
     definition_en: "Complete definition of the term in English. Should be clear and precise."
 
-    # At least one example required
+    # Optional examples
     examples:
       - uk: "Приклад використання українською мовою"
         en: "Usage example in English"
@@ -39,104 +39,22 @@ terms:
     notes_uk: "Додаткові примітки українською" # Optional notes
     notes_en: "Additional notes in English" # Optional notes
 
-    # References and links
+    # References and links (optional)
     references:
-      # Decision discussions and rationale
-      discussions:
-        - title: "Обговорення вибору українського терміну"
-          title_en: "Discussion on Ukrainian term selection"
-          url: "https://github.com/ukrcode/dictionary/discussions/123"
-          type: "github_discussion"
-          date: "2025-07-15"
-          summary_uk: "Короткий опис обговорення та рішення"
-          summary_en: "Brief description of discussion and decision"
+      - title: "React Documentation - useState Hook"
+        url: "https://react.dev/reference/react/useState"
+        type: "documentation" # documentation|wikipedia|discussion|standard|blog|book
+      
+      - title: "GitHub Discussion: Ukrainian term choice"
+        url: "https://github.com/ukrcode/dictionary/discussions/123"
+        type: "discussion"
         
-        - title: "Термінологічна комісія - рішення №15"
-          title_en: "Terminology committee - decision #15"
-          url: "https://example.com/terminology-decisions"
-          type: "official_decision"
-          date: "2025-06-20"
+      - title: "Wikipedia - Hook (computer science)"
+        url: "https://en.wikipedia.org/wiki/Hook_(computer_science)"
+        type: "wikipedia"
 
-      # External resources and documentation
-      external:
-        - title: "Wikipedia - English Term"
-          url: "https://en.wikipedia.org/wiki/English_Term"
-          type: "wikipedia"
-          language: "en"
-          summary_en: "Comprehensive explanation of the concept"
-        
-        - title: "Вікіпедія - Український термін"
-          url: "https://uk.wikipedia.org/wiki/Український_термін"
-          type: "wikipedia"
-          language: "uk"
-          summary_uk: "Повне пояснення концепції"
-
-        - title: "MDN Web Docs"
-          url: "https://developer.mozilla.org/en-US/docs/Web/API/SomeAPI"
-          type: "documentation"
-          language: "en"
-          summary_en: "Official technical documentation"
-
-        - title: "W3C Specification"
-          url: "https://www.w3.org/TR/some-spec/"
-          type: "specification"
-          language: "en"
-          summary_en: "Official web standard specification"
-
-      # Usage examples in real projects
-      usage_examples:
-        - title: "React Documentation Example"
-          url: "https://react.dev/reference/react/useState"
-          type: "code_example"
-          project: "React"
-          language: "en"
-          summary_en: "How the term is used in React documentation"
-
-        - title: "Vue.js приклад використання"
-          url: "https://vuejs.org/guide/essentials/reactivity-fundamentals.html"
-          type: "code_example"
-          project: "Vue.js"
-          language: "uk"
-          summary_uk: "Як термін використовується в Vue.js документації"
-
-      # Academic or linguistic sources
-      linguistic:
-        - title: "Термінологічний словник з інформатики"
-          title_en: "Terminological Dictionary of Computer Science"
-          author: "Іван Петренко"
-          author_en: "Ivan Petrenko"
-          year: "2023"
-          publisher: "Київський університет"
-          isbn: "978-966-123-456-7"
-          type: "academic_source"
-
-        - title: "IEEE Standard for Software Engineering Terminology"
-          url: "https://ieeexplore.ieee.org/document/159342"
-          type: "standard"
-          organization: "IEEE"
-          year: "2024"
-
-      # Blog posts and articles
-      articles:
-        - title: "Чому ми обрали саме цей термін"
-          title_en: "Why we chose this specific term"
-          author: "Марія Коваленко"
-          author_en: "Maria Kovalenko"
-          url: "https://blog.ukrcode.com/terminology-choices"
-          date: "2025-07-10"
-          type: "blog_post"
-          summary_uk: "Детальне пояснення вибору терміну"
-          summary_en: "Detailed explanation of term selection"
-
-    # Translation notes and alternatives considered
-    translation_notes:
-      uk: "Розглядалися також варіанти: 'альтернатива1', 'альтернатива2'. Обрано поточний через..."
-      en: "Also considered alternatives: 'alternative1', 'alternative2'. Current chosen because..."
-      alternatives_considered:
-        uk: ["альтернатива1", "альтернатива2", "варіант3"]
-        en: ["alternative1", "alternative2", "variant3"]
-      decision_rationale:
-        uk: "Причини вибору поточного терміну"
-        en: "Reasons for choosing current term"
+    # Translation notes (optional)
+    translation_notes: "Розглядалися варіанти: 'альтернатива1', 'альтернатива2'. Обрано поточний через кращу відповідність контексту."
+    alternatives_considered: ["альтернатива1", "альтернатива2", "варіант3"]
 
   # Add more terms following the same structure...
