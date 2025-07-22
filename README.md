@@ -4,4 +4,4 @@
 
 ## Вміст
 
-1. [Словник термінів](./docs/dictionary.md
+1. [Словник термінів](./docs/dictionary.md)
