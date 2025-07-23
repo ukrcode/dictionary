@@ -6,6 +6,7 @@ category:
   name_uk: "Українська назва" # Category name in Ukrainian
   name_en: "English Name" # Category name in English
   description_uk: "Опис категорії українською мовою"
+  # optional field
   description_en: "Category description in English"
 
 # All terms in this category
