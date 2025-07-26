@@ -29,9 +29,6 @@ terms:
 
   - uk: "коміт"
     en: "commit"
-    aliases_uk:
-      - "фіксація"
-      - "збереження"
     definition_uk: "Знімок стану файлів у репозиторії в певний момент часу з описом змін"
     definition_en: "Snapshot of files in repository at a specific point in time with description of changes"
     examples:

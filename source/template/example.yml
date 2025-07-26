@@ -18,6 +18,7 @@ terms:
     aliases_uk:
       - "синонім1"
       - "варіант2"
+    # Optional aliases/synonyms
     aliases_en:
       - "synonym1"
       - "variant2"
