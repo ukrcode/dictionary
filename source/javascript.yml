@@ -15,6 +15,13 @@ terms:
     definition_uk: "Програмний компонент, що виконує JavaScript-код шляхом парсингу, компіляції та запуску скриптів у браузерах або середовищах виконання."
     definition_en: "A software component that executes JavaScript code by parsing, compiling, and running scripts in browsers or runtime environments."
 
+    # Optional aliases/synonyms
+    aliases_uk:
+      - "JS рушій"
+    # Optional aliases/synonyms
+    aliases_en:
+      - "JS engine"
+
     # Optional examples
     examples:
       - uk: "Рушій JavaScript більшість часу не робить нічого, він працює лише коли спрацьовує скрипт, обробник подій чи подія."
@@ -28,8 +35,8 @@ terms:
     # References and links (optional)
     references:
       #- title: "React Documentation - useState Hook"
-        #url: "https://react.dev/reference/react/useState"
-        #type: "documentation" # documentation|wikipedia|discussion|standard|blog|book
+      #url: "https://react.dev/reference/react/useState"
+      #type: "documentation" # documentation|wikipedia|discussion|standard|blog|book
 
     # Translation notes (optional)
     translation_notes: ""
