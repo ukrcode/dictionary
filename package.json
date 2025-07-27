@@ -1,0 +1,16 @@
+{
+  "name": "web-dictionary",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Цей словник містить терміни, що використовуються у фронт-енд та веб-розробці. Він має стандартизувати терміни та їх сталі визначення, щоб покращити статті і переклади на українську мову.",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "create:dictionary": "node ./scripts/create-dictionary.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yaml": "^2.8.0"
+  }
+}

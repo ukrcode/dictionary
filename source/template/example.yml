@@ -36,7 +36,6 @@ terms:
 
     # Optional fields
     see_also: ["related_term1", "related_term2"] # Related terms
-    difficulty: "beginner" # beginner|intermediate|advanced
     tags: ["tag1", "tag2"] # For categorization
     notes_uk: "Додаткові примітки українською" # Optional notes
     notes_en: "Additional notes in English" # Optional notes

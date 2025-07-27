@@ -239,5 +239,4 @@ terms:
       - uk: "Пул реквест проходить код-рев'ю перед злиттям"
         en: "Pull request goes through code review before merge"
     see_also: ["код_рев'ю", "злиття", "форк"]
-    difficulty: "intermediate"
     tags: ["співпраця", "код_рев'ю"]
