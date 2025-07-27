@@ -1,1 +1,38 @@
-2
+category:
+  id: "javascript" # Unique identifier (lowercase, hyphenated)
+  name_uk: "JavaScript" # Category name in Ukrainian
+  name_en: "JavaScript" # Category name in English
+  description_uk: "Терміни та поняття, пов'язані з JavaScript"
+  # optional field
+  description_en: "Terms and concepts related to JavaScript"
+
+# All terms in this category
+terms:
+  - uk: "рушій JavaScript" # Ukrainian term (lowercase)
+    en: "JavaScript engine" # English term (lowercase)
+
+    # Required definitions
+    definition_uk: "Програмний компонент, що виконує JavaScript-код шляхом парсингу, компіляції та запуску скриптів у браузерах або середовищах виконання."
+    definition_en: "A software component that executes JavaScript code by parsing, compiling, and running scripts in browsers or runtime environments."
+
+    # Optional examples
+    examples:
+      - uk: "Рушій JavaScript більшість часу не робить нічого, він працює лише коли спрацьовує скрипт, обробник подій чи подія."
+        en: "The JavaScript engine does nothing most of the time; it only kicks in when a script, event handler, or event is triggered."
+
+    # Optional fields
+    see_also: [] # Related terms
+    notes_uk: "" # Optional notes
+    notes_en: "" # Optional notes
+
+    # References and links (optional)
+    references:
+      #- title: "React Documentation - useState Hook"
+        #url: "https://react.dev/reference/react/useState"
+        #type: "documentation" # documentation|wikipedia|discussion|standard|blog|book
+
+    # Translation notes (optional)
+    translation_notes: ""
+    alternatives_considered: []
+
+  # Add more terms following the same structure...
