@@ -1,0 +1,33 @@
+category:
+  id: "general" # Unique identifier (lowercase, hyphenated)
+  name_uk: "Загальні" # Category name in Ukrainian
+  name_en: "General" # Category name in English
+  description_uk: "Терміни та поняття, пов'язані з загальними темами"
+  # optional field
+  description_en: "Terms and concepts related to general topics"
+
+# All terms in this category
+terms:
+  - uk: ""
+    en: ""
+
+    definition_uk: ""
+    definition_en: ""
+
+    aliases_uk:
+      - ""
+    aliases_en:
+      - ""
+
+    examples:
+      - uk: ""
+        en: ""
+
+    see_also: []
+    notes_uk: ""
+    notes_en: ""
+
+    references:
+
+    translation_notes: ""
+    alternatives_considered: []
